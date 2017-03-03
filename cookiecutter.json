@@ -1,0 +1,12 @@
+{
+    "author_name": "Paul Wicks",
+    "author_email": "pwicks86@gmail.com",
+
+    "package_name": "my_new_package",
+    "package_version": "0.1.0",
+    "package_description": "{{cookiecutter.package_name}}",
+    "package_url": "https://github.com/pwicks86/{{cookiecutter.package_name}}",
+
+    "python_version_compat" : ["Python 3", "Python 2/3"],
+    "package_license" : ["MIT", "Apache", "GPL3", "None"]
+}
