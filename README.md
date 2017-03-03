@@ -3,22 +3,22 @@ cookiecutter-pypackage-basic
 
 This is based on https://github.com/kragniz/cookiecutter-pypackage-minimal
 
-#TODO: Update this stuff
 Usage
 -----
 
     pip install cookiecutter
     git clone 
-    cookiecutter cookiecutter-pypackage-minimal/
+    cookiecutter cookiecutter-pypackage-basic/
 
-You should then change the classifiers in `{{ package_name }}/setup.py` - it is assumed that the project will run on the latest versions of Python 2 and 3, so you should remove any classifiers that do not apply. The full list of PyPI classifiers can be found [here](https://pypi.python.org/pypi?:action=list_classifiers).
+You should then change the classifiers in `{{ package_name }}/setup.py`.
+The full list of PyPI classifiers can be found [here](https://pypi.python.org/pypi?:action=list_classifiers).
 
-Fill out the README, and - if necessary - add a license to the project.
+Fill out the README and you are ready to go.
 
 Explanation
 -----------
 
-The decisions `cookiecutter-pypackage-minimal` makes should all be explained here.
+The decisions `cookiecutter-pypackage-basic` makes should all be explained here.
 
 ### README
 
